@@ -28,7 +28,7 @@ public struct SimpleLogger {
 	
 	public func log(_ type: LogType, message: String, function: String = #function, line: Int = #line, file: String = #file, date: Date = Date()) {
 		let fileName = (file as NSString).lastPathComponent
-		print("\(type)|[\(dateFormat.string(from: date)):\(fileName):\(function)@\(line)] \(message)")
+		print("|\(type.rawValue)|\(dateFormat.string(from: date))|[\(fileName):\(function)@\(line)] \(message)")
 	}
 	
 	public func debug(message: String, function: String = #function, line: Int = #line, file: String = #file, date: Date = Date()) {

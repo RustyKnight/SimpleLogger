@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "70102B181D6818FA00E7AFC5"
-               BuildableName = "KZSimpleLogger-iOS.framework"
+               BuildableName = "KZSimpleLogger.framework"
                BlueprintName = "KZSimpleLogger-iOS"
                ReferencedContainer = "container:KZSimpleLogger.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70102B181D6818FA00E7AFC5"
-            BuildableName = "KZSimpleLogger-iOS.framework"
+            BuildableName = "KZSimpleLogger.framework"
             BlueprintName = "KZSimpleLogger-iOS"
             ReferencedContainer = "container:KZSimpleLogger.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70102B181D6818FA00E7AFC5"
-            BuildableName = "KZSimpleLogger-iOS.framework"
+            BuildableName = "KZSimpleLogger.framework"
             BlueprintName = "KZSimpleLogger-iOS"
             ReferencedContainer = "container:KZSimpleLogger.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70102B181D6818FA00E7AFC5"
-            BuildableName = "KZSimpleLogger-iOS.framework"
+            BuildableName = "KZSimpleLogger.framework"
             BlueprintName = "KZSimpleLogger-iOS"
             ReferencedContainer = "container:KZSimpleLogger.xcodeproj">
          </BuildableReference>
