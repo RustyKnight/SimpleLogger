@@ -6,7 +6,8 @@
 //  Copyright © 2016 KaiZen. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+//#import <Cocoa/Cocoa.h>
+@import Foundation;
 
 //! Project version number for KZSimpleLogger.
 FOUNDATION_EXPORT double KZSimpleLoggerVersionNumber;

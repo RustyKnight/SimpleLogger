@@ -11,6 +11,10 @@
 		70102B051D68116F00E7AFC5 /* KZSimpleLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70102B041D68116F00E7AFC5 /* KZSimpleLoggerTests.swift */; };
 		70102B071D68116F00E7AFC5 /* KZSimpleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 70102AF91D68116F00E7AFC5 /* KZSimpleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70102B111D68118800E7AFC5 /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70102B101D68118800E7AFC5 /* SimpleLogger.swift */; };
+		70102B221D6818FA00E7AFC5 /* KZSimpleLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70102B191D6818FA00E7AFC5 /* KZSimpleLogger.framework */; };
+		70102B301D6819A600E7AFC5 /* KZSimpleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 70102AF91D68116F00E7AFC5 /* KZSimpleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70102B311D681A0800E7AFC5 /* SimpleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70102B101D68118800E7AFC5 /* SimpleLogger.swift */; };
+		70102B321D681BAA00E7AFC5 /* KZSimpleLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70102B041D68116F00E7AFC5 /* KZSimpleLoggerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +24,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 70102AF51D68116F00E7AFC5;
 			remoteInfo = KZSimpleLogger;
+		};
+		70102B231D6818FA00E7AFC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70102AED1D68116F00E7AFC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70102B181D6818FA00E7AFC5;
+			remoteInfo = "KZSimpleLogger-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,6 +42,8 @@
 		70102B041D68116F00E7AFC5 /* KZSimpleLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZSimpleLoggerTests.swift; sourceTree = "<group>"; };
 		70102B061D68116F00E7AFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70102B101D68118800E7AFC5 /* SimpleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleLogger.swift; sourceTree = "<group>"; };
+		70102B191D6818FA00E7AFC5 /* KZSimpleLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KZSimpleLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70102B211D6818FA00E7AFC5 /* KZSimpleLogger-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KZSimpleLogger-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +59,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				70102B001D68116F00E7AFC5 /* KZSimpleLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70102B151D6818FA00E7AFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70102B1E1D6818FA00E7AFC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70102B221D6818FA00E7AFC5 /* KZSimpleLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +94,8 @@
 			children = (
 				70102AF61D68116F00E7AFC5 /* KZSimpleLogger.framework */,
 				70102AFF1D68116F00E7AFC5 /* KZSimpleLoggerTests.xctest */,
+				70102B191D6818FA00E7AFC5 /* KZSimpleLogger.framework */,
+				70102B211D6818FA00E7AFC5 /* KZSimpleLogger-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +127,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				70102B071D68116F00E7AFC5 /* KZSimpleLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70102B161D6818FA00E7AFC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70102B301D6819A600E7AFC5 /* KZSimpleLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +177,42 @@
 			productReference = 70102AFF1D68116F00E7AFC5 /* KZSimpleLoggerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		70102B181D6818FA00E7AFC5 /* KZSimpleLogger-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70102B2A1D6818FA00E7AFC5 /* Build configuration list for PBXNativeTarget "KZSimpleLogger-iOS" */;
+			buildPhases = (
+				70102B141D6818FA00E7AFC5 /* Sources */,
+				70102B151D6818FA00E7AFC5 /* Frameworks */,
+				70102B161D6818FA00E7AFC5 /* Headers */,
+				70102B171D6818FA00E7AFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KZSimpleLogger-iOS";
+			productName = "KZSimpleLogger-iOS";
+			productReference = 70102B191D6818FA00E7AFC5 /* KZSimpleLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		70102B201D6818FA00E7AFC5 /* KZSimpleLogger-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70102B2D1D6818FA00E7AFC5 /* Build configuration list for PBXNativeTarget "KZSimpleLogger-iOSTests" */;
+			buildPhases = (
+				70102B1D1D6818FA00E7AFC5 /* Sources */,
+				70102B1E1D6818FA00E7AFC5 /* Frameworks */,
+				70102B1F1D6818FA00E7AFC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70102B241D6818FA00E7AFC5 /* PBXTargetDependency */,
+			);
+			name = "KZSimpleLogger-iOSTests";
+			productName = "KZSimpleLogger-iOSTests";
+			productReference = 70102B211D6818FA00E7AFC5 /* KZSimpleLogger-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,6 +234,16 @@
 						DevelopmentTeam = YWXH886EY3;
 						ProvisioningStyle = Automatic;
 					};
+					70102B181D6818FA00E7AFC5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YWXH886EY3;
+						ProvisioningStyle = Automatic;
+					};
+					70102B201D6818FA00E7AFC5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YWXH886EY3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 70102AF01D68116F00E7AFC5 /* Build configuration list for PBXProject "KZSimpleLogger" */;
@@ -176,6 +260,8 @@
 			targets = (
 				70102AF51D68116F00E7AFC5 /* KZSimpleLogger */,
 				70102AFE1D68116F00E7AFC5 /* KZSimpleLoggerTests */,
+				70102B181D6818FA00E7AFC5 /* KZSimpleLogger-iOS */,
+				70102B201D6818FA00E7AFC5 /* KZSimpleLogger-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +275,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		70102AFD1D68116F00E7AFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70102B171D6818FA00E7AFC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70102B1F1D6818FA00E7AFC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,6 +314,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70102B141D6818FA00E7AFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70102B311D681A0800E7AFC5 /* SimpleLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70102B1D1D6818FA00E7AFC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70102B321D681BAA00E7AFC5 /* KZSimpleLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -221,6 +337,11 @@
 			isa = PBXTargetDependency;
 			target = 70102AF51D68116F00E7AFC5 /* KZSimpleLogger */;
 			targetProxy = 70102B011D68116F00E7AFC5 /* PBXContainerItemProxy */;
+		};
+		70102B241D6818FA00E7AFC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70102B181D6818FA00E7AFC5 /* KZSimpleLogger-iOS */;
+			targetProxy = 70102B231D6818FA00E7AFC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -394,6 +515,86 @@
 			};
 			name = Release;
 		};
+		70102B2B1D6818FA00E7AFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KZSimpleLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.KZSimpleLogger-iOS";
+				PRODUCT_NAME = KZSimpleLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70102B2C1D6818FA00E7AFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KZSimpleLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.KZSimpleLogger-iOS";
+				PRODUCT_NAME = KZSimpleLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70102B2E1D6818FA00E7AFC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				INFOPLIST_FILE = KZSimpleLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.KZSimpleLogger-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70102B2F1D6818FA00E7AFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YWXH886EY3;
+				INFOPLIST_FILE = KZSimpleLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.kaizen.KZSimpleLogger-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -419,6 +620,22 @@
 			buildConfigurations = (
 				70102B0E1D68116F00E7AFC5 /* Debug */,
 				70102B0F1D68116F00E7AFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70102B2A1D6818FA00E7AFC5 /* Build configuration list for PBXNativeTarget "KZSimpleLogger-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70102B2B1D6818FA00E7AFC5 /* Debug */,
+				70102B2C1D6818FA00E7AFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70102B2D1D6818FA00E7AFC5 /* Build configuration list for PBXNativeTarget "KZSimpleLogger-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70102B2E1D6818FA00E7AFC5 /* Debug */,
+				70102B2F1D6818FA00E7AFC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
