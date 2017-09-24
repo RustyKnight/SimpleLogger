@@ -1,9 +1,9 @@
 //
 //  SimpleLogger.swift
-//  KZSimpleLogger
+//  SimpleLogger
 //
-//  Created by Shane Whitehead on 20/8/16.
-//  Copyright © 2016 KaiZen. All rights reserved.
+//  Created by Shane Whitehead on 24/9/17.
+//  Copyright © 2017 SimpleLogger. All rights reserved.
 //
 
 import Foundation
